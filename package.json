@@ -3,21 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "bin": {
+    "login-signup": "bin/www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
   "scripts": {
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gmcha0323/login-signup.git"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gmcha0323/login-signup/issues"
   },
-  "homepage": "https://github.com/gmcha0323/login-signup#readme",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.2"
-  }
+  "homepage": "https://github.com/gmcha0323/login-signup#readme"
 }
