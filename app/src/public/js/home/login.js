@@ -20,4 +20,3 @@ function login () {
         body: JSON.stringify(req),
     });
 }
-
